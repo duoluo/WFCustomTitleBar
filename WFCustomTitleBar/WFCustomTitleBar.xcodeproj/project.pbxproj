@@ -17,6 +17,7 @@
 		0A24A9211DFAC2DA007F48D2 /* WFStateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24A9201DFAC2DA007F48D2 /* WFStateButton.m */; };
 		0A24A9241DFAC3A6007F48D2 /* WFTitleBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24A9231DFAC3A6007F48D2 /* WFTitleBarButton.m */; };
 		0A24A9271DFAC62F007F48D2 /* WFTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A24A9261DFAC62F007F48D2 /* WFTitleBarView.m */; };
+		0A57661D1DFAEC0E00A7FDFD /* 2016-12-09 21_40_40.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0A57661C1DFAEC0E00A7FDFD /* 2016-12-09 21_40_40.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		0A24A9231DFAC3A6007F48D2 /* WFTitleBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTitleBarButton.m; sourceTree = "<group>"; };
 		0A24A9251DFAC62F007F48D2 /* WFTitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTitleBarView.h; sourceTree = "<group>"; };
 		0A24A9261DFAC62F007F48D2 /* WFTitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTitleBarView.m; sourceTree = "<group>"; };
+		0A57661C1DFAEC0E00A7FDFD /* 2016-12-09 21_40_40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "2016-12-09 21_40_40.gif"; path = "WFCustomTitleBar/2016-12-09 21_40_40.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		0A24A8F91DFABE78007F48D2 = {
 			isa = PBXGroup;
 			children = (
+				0A57661C1DFAEC0E00A7FDFD /* 2016-12-09 21_40_40.gif */,
 				0A24A9041DFABE78007F48D2 /* WFCustomTitleBar */,
 				0A24A9031DFABE78007F48D2 /* Products */,
 			);
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A24A90C1DFABE78007F48D2 /* Assets.xcassets in Resources */,
+				0A57661D1DFAEC0E00A7FDFD /* 2016-12-09 21_40_40.gif in Resources */,
 				0A24A90F1DFABE78007F48D2 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +330,7 @@
 				0A24A9151DFABE78007F48D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
