@@ -15,5 +15,6 @@
 @property (nonatomic, strong) WFTitleBarButton *closeButton;
 @property (nonatomic, strong) WFTitleBarButton *minButton;
 @property (nonatomic, strong) WFTitleBarButton *zoomButton;
+@property (nonatomic, strong) NSColor *backgroundColor;
 
 @end

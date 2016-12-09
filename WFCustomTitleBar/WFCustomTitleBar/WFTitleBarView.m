@@ -57,7 +57,7 @@
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
     
-    NSColor *color = [NSColor redColor];
+    NSColor *color = self.backgroundColor;
     [color set];
     NSRectFill(dirtyRect);
 }

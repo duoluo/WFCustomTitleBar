@@ -12,5 +12,6 @@
 @interface WFMainView : NSView
 
 @property (nonatomic, strong) WFTitleBarView *titleBarView;
+@property (nonatomic, assign) NSInteger titlebarHeight;
 
 @end

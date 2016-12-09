@@ -36,7 +36,7 @@ static CGFloat const titleHeight = 22;
     [super drawRect:dirtyRect];
     
     CGRect titleRect = self.frame;
-    titleRect.size.height = titleHeight;
+    titleRect.size.height = self.titlebarHeight;
     titleRect.origin.y = self.frame.size.height - titleRect.size.height;
     self.titleBarView.frame = titleRect;
 }
